@@ -16,9 +16,16 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item dropdown">
+            <li class="nav-item">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Plots
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Comparison.html">Comparison</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="Data.html">Data</a>
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <a class="dropdown-item" href="Max_Temp.html">Max Temperature</a>
@@ -27,48 +34,28 @@
                 <a class="dropdown-item" href="Wind_Speed.html">Wind Speed</a>
               </div>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Comparison.html">Comparison</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Data.html">Data</a>
-            </li>
           </ul>
         </div>
       </nav>
     <div class="container">
         <div class="row">
-            <div class="col-md-8">
-                <div class= "box"><h2>Summary: Lattitude vs. X</h2>
-                    <img width=350 src="Fig1.png">
-                <p>The purpose of this project was to analyze how weather changes
-                    as you get closer to the equator (0 Deg. Latitude). To accomplish this analysis, we
-                    first pulled data from the OpenWeatherMap API to assemble a dataset
-                    on over 500 cities. <br><br>
-                    After assembling the dataset, we used Matplotlib to plot various aspects
-                    of the weather vs lattitude. Factors we looked at included: temperature,
-                    cloudiness, wind speed, and humidity. This site provides the source data and
-                    visualizations created as part of the analysis, as well as explanations and
-                    descriptions of any trends and correlations witnessed.</p>
-                </div>
-            </div>
-            <div class="col-md-4">
+            <div class="col-md-12">
                 <div class= "box">
-                    <h3>Visualizations</h3>
+                    <h3>Comparison: Latitude vs X</h3>
                     <div class="row">
                         <div class= "col-md-6">
-                            <a href="Max_Temp.html"><img src="Fig1.png"></a>
+                            <a href="Fig1.png"><img src="Fig1.png"></a>
                         </div>
                         <div class= "col-md-6">
-                            <a href="Humidity.html"><img src="Fig2.png"></a>
+                            <a href="Fig2.png"><img src="Fig2.png"></a>
                         </div>
                     </div>
                     <div class="row">
                         <div class= "col-md-6">
-                            <a href="Cloudiness.html"><img src="Fig3.png"></a>
+                            <a href="Fig3.png"><img src="Fig3.png"></a>
                         </div>
                         <div class= "col-md-6">
-                            <a href="Wind_Speed.html"><img src="Fig4.png"></a>
+                            <a href="Fig4.png"><img src="Fig4.png"></a>
                         </div>
                     </div>
                 </div>
